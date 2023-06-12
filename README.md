@@ -16,6 +16,8 @@ Payment integration refers to the process of integrating a payment gateway or pr
 
 ## Appendix
 
+"How do you get started with payment integration ?". With PAYMENT INTEGRATION becoming such huge words in the tech industry, it's hard to go a full week without hearing something along these lines on online forums. Before getting started with any code or any technical terms, I think the best first step is to gain a big picture understanding of what payment integration is, and what it is attempting to do. 
+
 Certainly! Here's an appendix for integrating Razorpay, a popular payment gateway, into your application:
 
 1. Setting up a Razorpay Account:
@@ -83,11 +85,6 @@ Remember to consult the official Razorpay documentation and resources for the mo
 - Additional payment receipt
 
 - Able to download receipt and send it directly to mail 
-
-
-## Lessons Learned
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
 
 
 ## Contributing
