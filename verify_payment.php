@@ -82,7 +82,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
           // print_r($job_query);
           $job_result = mysqli_query($conn, $job_query);
           if ($job_result) {
-            $data = array("Status"=>1,'Message'=>"Success","Razorpay_Payment_Id"=>$_POST['razorpay_payment_id']);
+            $data = array("Status"=>1,'Message'=>"Success","Razorpay_Payment_Id"=>$_POST['razorpay_payment_id'],
+            "Razorpay_Order_Id"=>$_POST['razorpay_order_id']);
             print_r(json_encode($data)); 
           } else {
               // echo "Job Data Failed!<br>";

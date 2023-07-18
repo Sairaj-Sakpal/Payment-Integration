@@ -107,11 +107,14 @@ function setData(res) {
         // contentType: 'application/json; charset=utf-8',
         success: function (res) {
           if (res.Status == 1) {
-            Swal.fire(
-              'Congratulations !',
-              'You Payment is done Successfully !',
-              'success'
-            )
+            var razorpay_order_id = res.Razorpay_Order_Id;
+            var url = "pdf.php?razorpayOrderId=" + razorpay_order_id;
+            Swal.fire({
+              icon: 'success',
+              title: 'Congratulations !',
+              text: 'You Payment is done Successfully !',
+              footer: 'Want Payment Receipt : <a href="' + url + '" target="_blank"> Download Payment Receipt</a>'
+            })
           } else {
             alert("Oops ! something wrong. 1");
           }
