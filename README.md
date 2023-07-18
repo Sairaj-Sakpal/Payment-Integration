@@ -82,7 +82,7 @@ Remember to consult the official Razorpay documentation and resources for the mo
 
 ## Roadmap
 
-- Additional payment receipt
+- Additional payment receipt - Done and updated the repo
 
 - Able to download receipt and send it directly to mail 
 
